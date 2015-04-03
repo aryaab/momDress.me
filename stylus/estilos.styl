@@ -68,10 +68,10 @@ img
 	margin-right .5em
 	
 	
-// .left
-// 	float left
-// .right
-// 	float right		
+.left
+	float left
+.right
+	float right		
 
 .menu
 	display none
@@ -100,3 +100,21 @@ img
 .relative
 	position relative
 
+.wrap
+	width 1000px
+	
+@media screen and (min-width: 480px)
+	body
+		background crema
+	
+	.productos
+		&:nth-child(even)
+			margin-right 1em
+	
+	.image
+		img
+			width 100%
+			height auto
+	.informacion
+		&.medium
+			width auto	
